@@ -2,8 +2,8 @@ package:
   name: cluster_peripherals
 
 dependencies:
-  cluster_interconnect: { git: "https://github.com/Alsaqr-platform/cluster_interconnect.git", rev: alsaqr_cluster } # for interfaces
-
+ # cluster_interconnect: { git: "https://github.com/Alsaqr-platform/cluster_interconnect.git", rev: alsaqr_cluster } # for interfaces
+ tcdm_interconnect: { git: "https://github.com/pulp-platform/cluster_interconnect.git", version: "1.1.2" }
 sources:
   - cluster_control_unit/cluster_control_unit.sv
 
